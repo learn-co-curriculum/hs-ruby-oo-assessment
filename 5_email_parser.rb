@@ -3,4 +3,4 @@
 
 
 # Bonus!
-# Create a validate method that tests if the email address is potentially valid (not necessarily that it is actually real!).
+# Create a validate method that tests if the email address is potentially valid (not necessarily that it is actually real).
