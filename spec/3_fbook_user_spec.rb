@@ -1,8 +1,8 @@
 require "spec_helper"
 
 describe "User" do
-  let(:carla) { User.new("Carla", "Feb. 12") } 
-  let(:george) { User.new("George", "Oct. 23") } 
+  let(:carla) { User.new("Carla") } 
+  let(:george) { User.new("George") } 
 
   it 'is able to instantiate a new user' do
     begin
@@ -12,14 +12,13 @@ describe "User" do
     end
   end
 
+  it 'should have a name' do
+    expect(carla.name).to eq("Carla")
+  end
+
   it 'should start with an empty wall and zero pokes' do
     expect(carla.wall).to eq([])
     expect(carla.pokes).to eq(0)
-  end
-
-  it 'should have a name and birthday' do
-    expect(carla.name).to eq("Carla")
-    expect(carla.birthday).to eq("Feb. 12")
   end
 
   it 'should be able to poke' do

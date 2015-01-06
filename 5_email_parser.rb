@@ -1,4 +1,4 @@
-# Create a class EmailParser with a parse method that accepts a string of unformatted email addresses. The parse method should separate the string into an array of unique email addresses (removing any duplicates). The delimiters to support are commas (','), spaces (' ') and semicolons (';'). 
+# Create a class EmailParser with a parse method that accepts a string of unformatted email addresses as an argument. The parse method should separate the string into an array of unique email addresses (removing any duplicates). The delimiters to support are commas (','), spaces (' ') and semicolons (';'). 
 
 
 

@@ -1,5 +1,5 @@
 class Dog
-  # add attribute accessors (readers and writers) for name, breed and happiness
+  # 1. Create attribute accessors (readers and writers) for name, breed and happiness
 
   def initialize(breed)
     @happiness = 0
@@ -7,13 +7,13 @@ class Dog
 
   end
 
-  # Write a method called bark that makes the dog say (puts) its name and woof!
+  # 2. Write a method called bark that makes the dog say (puts) its name and woof!
 
 
-  # Write a play_fetch method that increases the dogs happiness by 1
+  # 3. Write a play_fetch method that increases the dogs happiness by 1 each time it plays fetch
 
 
-  # Write a wag_tail method that puts a tail wag if the dog has a happiness level greater than 3. If happiness is lower than three he gives you puppy dog eyes.
+  # 4. Write a wag_tail method that puts a tail wag if the dog has a happiness level greater than 3. If happiness is lower than three he gives you puppy dog eyes.
 
 
 end
