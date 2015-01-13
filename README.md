@@ -15,5 +15,12 @@ Fork and clone this lab then follow the instructions and write your code in each
 
 You may need to run `bundle install` to install all of the Gems that you need.
 
+Once you get the tests passing make sure that the lab is forked onto your own account. 
+**Check this by typing `git remote -v` in the terminal - you should see your github username in the remote address.** 
+
+Then push your work onto github and make a pull request so we can check out your mad skillz!
+
+
+
 
 
