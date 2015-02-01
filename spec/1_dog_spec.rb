@@ -1,7 +1,7 @@
 require "spec_helper"
 
 describe "Dog" do
-  let(:fido) {Dog.new("Beagle")}  # Look up what let does in RSpec
+  let(:fido) {Dog.new("Beagle","Snoopy")}  # Look up what let does in RSpec
   # https://www.relishapp.com/rspec/rspec-core/v/2-6/docs/helper-methods/let-and-let
 
   it 'is able to instantiate a new dog' do
@@ -23,18 +23,18 @@ describe "Dog" do
     fido.bark
   end
 
-  it "should get happier after playing fetch" do
-    fido.play_fetch
+  it "should get happier after an ear scratch" do
+    fido.ear_scratch
     expect(fido.happiness).to eq(1)
   end
 
   it "should wag its tail when it is happy" do
     fido.name = "Fido"
-    fido.play_fetch
-    fido.play_fetch
-    fido.play_fetch
-    fido.play_fetch
+    fido.ear_scratch
+    fido.ear_scratch
+    fido.ear_scratch
+    fido.ear_scratch
     expect(STDOUT).to receive(:puts).with("Fido wags his tail!")
-    fido.wag_tail
+    fido.tail_wag
   end
 end
