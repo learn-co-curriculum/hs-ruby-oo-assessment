@@ -28,8 +28,15 @@ describe "User" do
   end
 
   it 'should be able to write wall posts' do
-    expect(STDOUT).to receive(:puts).with("George says: Hey! Stop poking me.")
-    george.wall_post("Hey! Stop poking me.", carla)
+    expect(STDOUT).to receive(:puts).with("Hey! Stop poking me. -George")
+    george.post_on_wall("Hey! Stop poking me.", carla)
     expect(carla.wall.count).to eq(1)
   end
+
+  it 'should puts wall posts' do
+    george.post_on_wall("Hey! Stop poking me.", carla)
+    expect(STDOUT).to receive(:puts).with("Hey! Stop poking me. -George")
+    carla.display_wall_posts
+  end
+
 end
