@@ -2,7 +2,7 @@
 
 ## Ruby Object Orientation Review
 
-![moar-ruby](http://media3.giphy.com/media/2ZrBDZDah2jjq/200.gif)
+![moar-ruby](https://s3.amazonaws.com/after-school-assets/magic.gif)
 
 Your Ruby skills are unstoppable! Now it's time to put them to the test with some object oriented programming. 
 
