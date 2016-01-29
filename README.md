@@ -20,4 +20,4 @@ Then push your work onto github and make a pull request so we can check out your
 
 
 
-<a href='https://learn.co/lessons/hs-ruby-oo-assessment' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/hs-ruby-oo-assessment' title='Ruby Object Orientation Review'>Ruby Object Orientation Review</a> on Learn.co and start learning to code for free.</p>
